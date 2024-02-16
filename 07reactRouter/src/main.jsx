@@ -6,6 +6,8 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import About from './components/About/About.jsx'
 import Layout from './Layout.jsx'
 import Home from './components/Home/Home.jsx'
+import Contact from './components/Contact/Contact.jsx'
+
 
 
 const router = createBrowserRouter([
@@ -20,7 +22,11 @@ const router = createBrowserRouter([
       {
         path: 'about',
         element: <About />
-      }
+      },
+      {
+        path: 'contact',
+        element: <Contact />
+      },
     ]
   }
 ])
